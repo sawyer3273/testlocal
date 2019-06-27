@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 script {
-                    sh "touch test.txt"
+                    sh "cp ./README.md ./README2.md"
                 }
             }
         }
